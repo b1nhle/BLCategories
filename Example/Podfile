@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BLCategories_Tests' do
+  pod 'BLCategories', :path => '../'
+  
+  
+end
