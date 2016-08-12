@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLCategories'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Collect common methods, classes to be used in project'
 
 # This description is used to generate tags and improve search results.
