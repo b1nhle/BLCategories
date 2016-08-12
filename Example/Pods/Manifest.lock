@@ -1,0 +1,14 @@
+PODS:
+  - BLCategories (0.1.0)
+
+DEPENDENCIES:
+  - BLCategories (from `../`)
+
+EXTERNAL SOURCES:
+  BLCategories:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BLCategories: 4b4a7f93b9b3c3e27805a5c85e1f61ae3677dc89
+
+COCOAPODS: 0.39.0

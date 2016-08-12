@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLCategories'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BLCategories.'
+  s.version          = '1.0.1'
+  s.summary          = 'Collect common methods, classes to be used in project'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+I have worked on many projects, recognised a issue that developer must copy and paste common methods/classes if they want to use, but these methods/classes are the same, it is difficult a little bit. Why don't we create a folder which contains common methods/classes? This pod is created for this question.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/BLCategories'
+  s.homepage         = 'https://github.com/b1nhle/BLCategories'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Binh Le' => 'mlequocbinh@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/BLCategories.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/b1nhle/BLCategories.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BLCategories/Classes/**/*'
+  s.source_files = 'BLCategories/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'BLCategories' => ['BLCategories/Assets/*.png']
